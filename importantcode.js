@@ -280,7 +280,7 @@
 //  }
 // console.log(sumTriple(10, 20))
 
-// 
+
 // Sum of all digits.
 
 // let digit = 1234
