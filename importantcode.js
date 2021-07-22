@@ -281,39 +281,39 @@
 // console.log(sumTriple(10, 20))
 
 
-Sum of all digits.
+// Sum of all digits.
 
-let digit = 1234
-function sumDigits(n) {
-  let sum = 0;
-  while (n) {
-      digit = n % 10;
-      sum += digit;
-      n = (n - digit) / 10;
-  }
-  return sum;
-}
-console.log(sumDigits(digit))
+// let digit = 1234
+// function sumDigits(n) {
+//   let sum = 0;
+//   while (n) {
+//       digit = n % 10;
+//       sum += digit;
+//       n = (n - digit) / 10;
+//   }
+//   return sum;
+// }
+// console.log(sumDigits(digit))
 
-Find duplicate.
+// Find duplicate.
 
 
-let array= ['one',2,3,4,4,4,5,6,7,7,7,'pig','one']
-function findDuplicates(arr) {
-     let  out=[],
-      counts={}
+// let array= ['one',2,3,4,4,4,5,6,7,7,7,'pig','one']
+// function findDuplicates(arr) {
+//      let  out=[],
+//       counts={}
 
-  for (var i=0; i<arr.length; i++) {
-    var item = arr[i];
-    counts[item] = counts[item] >= 1 ? counts[item] + 1 : 1
-    if (counts[item] === 2) {
-      out.push(item)
-    }
-  }
+//   for (var i=0; i<arr.length; i++) {
+//     var item = arr[i];
+//     counts[item] = counts[item] >= 1 ? counts[item] + 1 : 1
+//     if (counts[item] === 2) {
+//       out.push(item)
+//     }
+//   }
 
-  return out
-}
-console.log(findDuplicates(array))
+//   return out
+// }
+// console.log(findDuplicates(array))
 
 
 
