@@ -7,7 +7,7 @@
 //       reverse = str[i] + reverse
 //   }
 // return reverse
-// }
+// }//
 // console.log(revStr(string)) 
 
 
